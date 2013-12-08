@@ -1,11 +1,12 @@
 package main
 
 type ADRCode struct {
-	nummer                 string
-	beskrivelse            string
-	klassifiseringskode    string
-	fareSedler             string
-	emballasjegruppe       string
-	tunnelRestriksjonskode string
-	faktor                 string
+	unNumber              string
+	commodity             string
+	dangerClass           string
+	safetyMarkCode        string
+	packingGroup          string
+	tunnelRestrictionCode string
+	factor                string
+	hash                  string
 }
